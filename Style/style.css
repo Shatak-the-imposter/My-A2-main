@@ -444,17 +444,99 @@ footer .line {
 #price {
     color: var(--primary-color);
 }
-.Packages{
+
+.Packages {
     width: 1170px;
     margin: auto;
     text-align: center;
     margin-bottom: 100px;
 }
+
 .Packages .main_btn {
     width: 210px;
     height: 52px;
 }
-#place{
+
+#place {
     color: #131318;
     max-width: 520px;
+}
+
+@media screen and (max-width:600px) {
+    .nav-box {
+        width: 375px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .Banner {
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner.png), no-repeat;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    #Banner-title {
+        font-size: 2rem;
+        font-weight: 800;
+        position: relative;
+        top: 5%;
+        left: 25%;
+    }
+
+    #Banner-description {
+        position: relative;
+        top: 5%;
+        left: -1%;
+        font-size: 0.8rem;
+    }
+
+    .popular-tours {
+        margin-top: 0px;
+    }
+
+    .find-bar {
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        position: relative;
+        top: 30%;
+        left: 25%;
+    }
+
+    .popular-tours-content {
+        flex-direction: column;
+        max-width: 390px;
+        margin-left: 0px;
+    }
+
+    .popular-tours-content img {
+        width: 335px;
+        height: 342px;
+        margin: auto;
+    }
+
+    .row-one,
+    .row-two,
+    .row-three {
+        flex-direction: column;
+    }
+
+    .row-one img,
+    .row-two img,
+    .row-three img {
+        width: 100%;
+    }
+    .gallary{
+        flex-direction: column;
+        width: 335px;
+        height: 176px;
+    }
+
 }
