@@ -83,6 +83,11 @@ nav li {
 
 }
 
+.find-bar img {
+    position: relative;
+    left: 70px;
+}
+
 .main_btn {
     color: #FFF;
     text-align: center;
@@ -143,7 +148,8 @@ nav li {
     margin-top: 24px;
 }
 
-.destination {
+.destination,
+.deals {
     margin: auto;
     text-align: center;
     max-width: 640px;
@@ -151,9 +157,11 @@ nav li {
 
 .gallary {
     width: 1170px;
+    height: 1000px;
     margin: auto;
     margin-top: 45px;
     margin-bottom: 100px;
+    border-radius: 16px;
 }
 
 .row-one,
@@ -162,7 +170,9 @@ nav li {
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
+    border-radius: 16px;
 }
+
 
 .service {
     margin: auto;
@@ -197,27 +207,254 @@ nav li {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-.service .description{
+
+.service .description {
     max-width: 480px;
     padding: 32px;
     margin-top: 16px;
     padding-top: 0px;
 }
-.service-two .description{
+
+.service-two .description {
     max-width: 480px;
     padding: 32px;
     margin-top: 16px;
     padding-top: 0px;
 }
-.service-title{
+
+.service-title {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
     padding-left: 32px;
     margin-bottom: 0px;
 }
-.service img ,.service-two img{
+
+.service img,
+.service-two img {
     padding-left: 32px;
     position: relative;
     top: 20px;
+}
+
+.news-letter {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-letter .news-letter-input {
+    width: 393px;
+    height: 52px;
+}
+
+.news-letter .news-letter-input {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-top: 16px;
+}
+
+.news-letter .description {
+    max-width: 390px;
+}
+
+.news-letter .service-title {
+    padding-left: 0px;
+}
+
+.news-letter-form .main_btn {
+    width: 393px;
+    height: 52px;
+    margin-top: 24px;
+}
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+}
+
+footer img {
+    width: 40px;
+    height: 46.673px;
+}
+
+.footer-logo {
+    padding-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 50px;
+}
+
+footer p {
+    max-width: 770px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.line {
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+footer .line {
+    margin-top: 50px;
+}
+
+.Social {
+    max-width: 174px;
+    margin: auto;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.Social img {
+    width: 100%;
+}
+
+.lvl {
+    width: 1170px;
+    margin: auto;
+}
+
+.discount-tag {
+    background: var(--primary-color);
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+    left: 71%;
+    bottom: 185px;
+
+
+}
+
+.discount-tag h3 {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 0px;
+}
+
+.discount-tag p {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.main_btn:hover {
+    color: blueviolet;
+    background-color: lightpink;
+    cursor: pointer;
+}
+
+.deals1 {
+    width: 1170px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.deals-details {
+    width: 570px;
+    height: 390px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    transform: translate(90%, -120%);
+}
+
+.deals-details>ul {
+    display: flex;
+    gap: 60px;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+
+.deals-details ul img {
+    position: relative;
+    top: 5px;
+    right: 2px;
+}
+
+.deals-details>ul>li {
+    list-style: none;
+}
+
+.deals-details .service-title {
+    padding-left: 10px;
+}
+
+.deals-details p {
+    padding-left: 10px;
+}
+
+.deals-details .main_btn {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.deals-details2 {
+    width: 570px;
+    height: 390px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    transform: translate(10%, -120%);
+}
+
+.deals-details2>ul {
+    display: flex;
+    gap: 60px;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+
+.deals-details2 ul img {
+    position: relative;
+    top: 5px;
+    right: 2px;
+}
+
+.deals-details2>ul>li {
+    list-style: none;
+}
+
+.deals-details2 .service-title {
+    padding-left: 10px;
+}
+
+.deals-details2 p {
+    padding-left: 10px;
+}
+
+.deals-details2 .main_btn {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#price {
+    color: var(--primary-color);
+}
+.Packages{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.Packages .main_btn {
+    width: 210px;
+    height: 52px;
+}
+#place{
+    color: #131318;
+    max-width: 520px;
 }
