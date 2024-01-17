@@ -461,8 +461,13 @@ footer .line {
     color: #131318;
     max-width: 520px;
 }
+.review-pic{
+width: 64px;
+height: 64px;
+}
 
 @media screen and (max-width:600px) {
+ 
     .nav-box {
         width: 375px;
         margin-left: 0px;
@@ -487,7 +492,7 @@ footer .line {
         font-weight: 800;
         position: relative;
         top: 5%;
-        left: 25%;
+        left: 12%;
     }
 
     #Banner-description {
@@ -499,7 +504,11 @@ footer .line {
 
     .popular-tours {
         margin-top: 0px;
-        margin-left: 100px;
+        margin-left: 10px;
+    }
+    .popular-tours .main_btn{
+        position: absolute;
+        transform: translate(100px , -400px);
     }
 
     .find-bar {
@@ -526,6 +535,7 @@ footer .line {
         width: 335px;
         height: 342px;
         margin: auto;
+        margin-top: 30px;
     }
 
     .row-one,
@@ -559,7 +569,7 @@ footer .line {
         width: 390px;
         height: 500px ;
         margin-top: 20px;
-        margin-left: 100px;
+        margin-left: 10px;
     }
 .deals , .deals1 {
     position: relative;
@@ -567,9 +577,15 @@ footer .line {
 }
     .deals-details,.deals-details2{
         width: 300px;
-        height: 290px;
-        /* position: relative; */
     }
+.deals-details{
+    position: absolute;
+    transform: translate(5%,-120%);
+}
+.Packages .main_btn{
+    position: absolute;
+    transform: translate(-250%, 1250px);
+}
     .service , .service-two{
         flex-direction: column;
         max-width: 390px;
@@ -586,9 +602,14 @@ footer .line {
         position: relative;
         top: 1240px;
     }
+    .popular-tours2 .main_btn{
+        position:absolute;
+        transform: translate(100px ,10px);
+    }
     .news-letter{
         position: relative;
         top: 1240px;
+        margin-top: 100px;
     }
     footer{
         position: relative;
@@ -596,8 +617,13 @@ footer .line {
     }
     .lvl{
         position: relative;
-        right: 600px;
-        top: 1240px;
+        right: 800px;
+        top: 1280px;
+
+    }
+    .news-letter img{
+        width: 100%;
+        margin-top: 20px;
     }
 
 }
